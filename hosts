@@ -1,0 +1,21 @@
+
+
+[webservers]
+172.31.36.234
+172.31.33.177
+172.31.3.192 ansible_user=ec2-user
+
+# Ex 3: A collection of database servers in the 'dbservers' group:
+
+## [dbservers]
+##
+## db01.intranet.mydomain.net
+## db02.intranet.mydomain.net
+## 10.25.1.56
+## 10.25.1.57
+
+# Here's another example of host ranges, this time there are no
+# leading 0s:
+
+## db-[99:101]-node.example.com
+

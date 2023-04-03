@@ -1,0 +1,11 @@
+- name: check apache if it is not present install
+  yum:
+   name: "{{ package_name }}"
+   update_cache: yes
+   state: latest
+
+- name: check the service and make sure it is in running stage
+  service:
+   name: "{{ service_name }}"
+   enabled: yes
+   state: started

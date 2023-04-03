@@ -1,0 +1,8 @@
+index_file: index.html
+document_root: /var/www/html/
+website_list:
+   - kaleem.com
+   - devops.com
+   - example.com
+   - devopsworld.com
+
